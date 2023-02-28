@@ -14,4 +14,5 @@ s.source       = { :git => "https://github.com/boboxiaodd/FaceUnity.git", :tag =
 s.source_files = 'FaceUnity/*.{h,m}','FaceUnity/**/*.{h,m}'
 s.requires_arc = true
 s.resource    = 'FaceUnity/FaceUnity.bundle'
+s.dependency 'FURenderKit'
 end
